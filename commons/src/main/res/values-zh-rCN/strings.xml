@@ -1,0 +1,468 @@
+<resources>
+    <string name="mark_note">马克笔记</string>
+    <string name="language_code">zh</string>
+
+    <!-- commons -->
+    <string name="text_about">关于</string>
+    <string name="text_custom">自定义</string>
+    <string name="text_add">添加</string>
+    <string name="text_delete">删除</string>
+    <string name="text_confirm">确认</string>
+    <string name="text_edit">编辑</string>
+    <string name="text_pick">选择</string>
+    <string name="text_preview">预览</string>
+    <string name="text_ok">OK</string>
+    <string name="text_done">完成</string>
+    <string name="text_save">保存</string>
+    <string name="text_presets">预定义</string>
+    <string name="text_reset">重置</string>
+    <string name="text_send">发送</string>
+    <string name="text_share">分享</string>
+    <string name="text_search">搜索</string>
+    <string name="text_cancel">取消</string>
+    <string name="text_close">关闭</string>
+    <string name="text_back">返回</string>
+    <string name="text_give_up">放弃</string>
+    <string name="text_created">创建</string>
+    <string name="text_updated">更新</string>
+    <string name="text_retry">重试</string>
+    <string name="text_next">下一个</string>
+    <string name="text_last">上一个</string>
+    <string name="text_more">更多</string>
+    <string name="text_tips">提示</string>
+    <string name="text_warning">警告</string>
+    <string name="text_send_to">发送到&#8230;</string>
+    <string name="items">条目</string>
+    <string name="text_trash">放进垃圾箱</string>
+    <string name="text_archive">归档</string>
+    <string name="text_move_out">移出</string>
+    <string name="text_tab_again_exit">再按一次退出</string>
+    <string name="text_attachment">附件</string>
+    <string name="working">正在执行&#8230;</string>
+    <string name="text_search_with">按条件搜索&#8230;</string>
+    <string name="text_rate_app">评价 APP</string>
+    <string name="text_menu">菜单</string>
+    <string name="text_backup">备份</string>
+    <string name="text_redo">重做</string>
+    <string name="text_undo">撤销</string>
+    <string name="text_title">标题</string>
+    <string name="text_chars">字数</string>
+    <string name="text_succeed">成功了!</string>
+    <string name="text_failed">失败了!</string>
+    <string name="text_failed_to_save_file">保存文件失败</string>
+    <string name="text_failed_to_resolve_intent">没有找到可用的应用</string>
+    <string name="text_file_not_exist">没有找到文件</string>
+    <string name="text_save_or_discard">保存还是丢弃所做的更改？</string>
+    <string name="text_save_successfully">保存成功</string>
+    <string name="offline_your_device_is_offline">设备无网络</string>
+    <string name="offline_check_wifi_state_hint">检查你的 Wi-Fi 或者移动数据连接\n并再次尝试</string>
+    <string name="text_crash_tips">Sorry, crashed!</string>
+
+    <string name="blue_grey_500">蓝灰色</string>
+    <string name="my_cyan">浅青色</string>
+    <string name="blue_grey_deep_blue">深灰蓝</string>
+    <string name="blue_grey_deep_grey">深灰色</string>
+    <string name="brown">棕色</string>
+    <string name="blue_deep">深蓝色</string>
+    <string name="pine_green">松绿色</string>
+    <string name="my_purple">紫色</string>
+    <string name="elegant_orange">淡雅橙</string>
+    <string name="Aein_red">女神红</string>
+
+    <string name="cd_picked">已选中，</string>
+    <string name="cd_unpicked">未选中，</string>
+
+    <string name="all_color">ALL COLOR</string>
+
+    <!-- app commons -->
+    <string name="text_add_shortcut">添加快捷方式</string>
+    <string name="text_note_not_found">没有找到这个笔记</string>
+    <string name="text_notebook_not_found">没有找到笔记本</string>
+    <string name="text_failed_to_read_note_file">读取笔记文件失败</string>
+    <string name="text_failed_to_save_note">笔记保存失败</string>
+    <string name="text_copy_content">复制内容</string>
+    <string name="text_copy_title">复制标题</string>
+    <string name="text_file_saved_to">文件被保存到 %s</string>
+    <string name="text_share_image">分享图片</string>
+    <string name="text_share_text">分享文本</string>
+    <string name="text_share_html">分享 Html</string>
+    <string name="text_title_required">需要输入标题</string>
+    <string name="text_export_html">导出 Html</string>
+    <string name="text_failed_to_modify_data">数据修改失败</string>
+    <string name="text_input_password">输入密码</string>
+    <string name="text_open_in_browser">在浏览器中打开</string>
+    <string name="text_copy_link">复制链接</string>
+    <string name="text_find_in_page">在页面中搜索</string>
+    <string name="text_print_pdf">打印 PDF</string>
+    <string name="text_empty_list">列表为空</string>
+    <string name="text_capture">截图</string>
+    <string name="text_capturing">正在截图&#8230;</string>
+    <string name="text_default_note_name">未命名笔记</string>
+    <string name="text_storage_unavailable">存储空间不可用</string>
+    <string name="text_failed_to_save_attachment">附件保存失败</string>
+    <plurals name="text_notes_number">
+        <item quantity="other">%d 个笔记</item>
+    </plurals>
+    <string name="text_one_shot">一次</string>
+    <string name="text_every_day">每天</string>
+    <string name="text_day_concat">,</string>
+    <string name="text_from">从</string>
+    <string name="text_to">到</string>
+    <string name="text_at">在</string>
+    <string name="text_until">知道</string>
+    <string name="text_export">导出</string>
+    <string name="text_export_text">导出文本</string>
+    <string name="text_error">错误</string>
+    <string name="text_get_it">知道了</string>
+    <string name="text_undone">未完成</string>
+    <string name="text_configuration">自定义</string>
+    <string name="text_syncing">正在同步&#8230;</string>
+    <string name="text_please_wait">请等待&#8230;</string>
+
+    <!-- drawer menus -->
+    <string name="drawer_menu_notebooks">笔记本</string>
+    <string name="drawer_menu_categories">分类</string>
+    <string name="drawer_menu_trash">垃圾箱</string>
+    <string name="drawer_menu_archive">归档</string>
+    <string name="drawer_menu_statistics">数据统计</string>
+    <string name="drawer_menu_time_line">时间线</string>
+    <string name="drawer_menu_setting">设置</string>
+    <string name="drawer_menu_share">分享 App</string>
+    <string name="drawer_menu_donate">支持开发</string>
+    <string name="drawer_header_sub_title">记录美好生活</string>
+    <string name="drawer_menu_notice">新应用：言叶！</string>
+    <string name="drawer_menu_notice_details">
+        用户你好，感谢您一直使用该软件。\n\n因为该软件早期设计的时候在对本地文件的管理上存在不足，
+        我最近开发了一款新的 Markdown 笔记软件——言叶。该软件比马克笔记功能更加丰富和强大。\n\n
+        - 言叶为跨平台写作而设计，基于文件系统开发，因而你可以和其他平台的笔记软件进行同步。\n
+        - 言叶开发了更多精美的主题和 UI，支持 5+ 种应用主题、日间和夜间主题、24+ 种编辑器主题、28+ 代码主题，沉浸式体验，像素级设计。\n
+        - 言叶支持全局搜索，多种图片滤镜效果，与 Hexo 等其他三方的平台协作等等。\n\n
+        强烈建议您尝试新的软件！\n
+        祝您工作和学习愉快，身体健康！</string>
+    <string name="drawer_menu_notice_try">去试试</string>
+
+    <!-- shortcuts -->
+    <string name="shortcut_add_long_name">创建笔记</string>
+    <string name="shortcut_add_short_name">创建</string>
+    <string name="shortcut_search_long_name">搜索笔记</string>
+    <string name="shortcut_search_short_name">搜索</string>
+    <string name="shortcut_quick_long_name">快速创建笔记</string>
+    <string name="shortcut_quick_short_name">快记</string>
+    <string name="shortcut_capture_long_name">拍照</string>
+    <string name="shortcut_capture_short_name">拍照</string>
+
+    <!-- permissions -->
+    <string name="permission_storage_permission">存储空间</string>
+    <string name="permission_location_permission">位置信息</string>
+    <string name="permission_microphone_permission">麦克风</string>
+    <string name="permission_phone_permission">电话</string>
+    <string name="permission_sms_permission">短信</string>
+    <string name="permission_sensor_permission">传感器</string>
+    <string name="permission_contacts_permission">通讯录</string>
+    <string name="permission_camera_permission">相机</string>
+    <string name="permission_calendar_permission">日历</string>
+    <string name="permission_set_permission">设置权限</string>
+    <string name="permission_denied_message">没有权限，请授予 %s 权限之后再次尝试。</string>
+    <string name="permission_set_in_settings_message">打开设置的程序信息页面，轻触\"权限\"，将 %s 设置为打开，并再次尝试.</string>
+    <string name="permission_to_set">去设置</string>
+
+    <!-- fabs -->
+    <string name="fab_opt_note">笔记</string>
+    <string name="fab_opt_notebook">笔记本</string>
+    <string name="fab_opt_tags">分类</string>
+    <string name="fab_opt_capture">拍照</string>
+    <string name="fab_opt_image">图片</string>
+    <string name="fab_opt_draft">手写</string>
+    <string name="fab_quick_note">快速笔记</string>
+    <string name="fab_sort_custom_fab">自定义浮动按钮</string>
+    <string name="fab_sort_custom">自定义&#8230;</string>
+    <string name="fab_sort_custom_fab_tip">拖动尾部的按钮进行排序，排在前面的 5 个将会展示到主界面</string>
+    <string name="fab_sort_save">保存</string>
+
+    <!-- support -->
+    <string name="dialog_notice_content_part1">您好，感谢您使用马克笔记！<![CDATA[<br/>]]>这里我们邀请您与我们一起来提升它的性能：</string>
+    <string name="dialog_notice_content_part2">1、你可以通过将马克笔记<![CDATA[<b>翻译成其他语言</b>]]>或者在应用商店<![CDATA[<b>给我们一个好评</b>]]>来帮助我们；</string>
+    <string name="dialog_notice_content_part3">2、如果你发现了异常崩溃、有功能需求等，你可以在<![CDATA[<b>设置->反馈</b>]]>页面向我们进行反馈；</string>
+    <string name="dialog_notice_content_part4">3、马克笔记是一款开源应用，你可以在<![CDATA[<b> Github </b>]]>上面找到它的源码，如果您能给该项目贡献代码或者<![CDATA[<b> Star </b>]]>一下，我们将感激不尽；</string>
+    <string name="dialog_notice_content_part5">4、此外，您可以订阅或者关注我们的 <![CDATA[<b>推特和微博</b>]]> 或者加入我们的 <![CDATA[<b>QQ群</b>]]> 以及时获取软件的发布信息；</string>
+    <string name="dialog_notice_content_part6">最后，您可以通过下面两种方式来资助开发者渡过互联网的冬天：</string>
+
+    <!-- statistic -->
+    <string name="statistic_activities">笔记</string>
+    <string name="statistic_title_activities">最近 7 天添加的笔记</string>
+    <string name="statistic_models_added">数据模型</string>
+    <string name="statistic_title_models_added">添加的数据模型的统计信息</string>
+    <string name="statistic_attachments_added">附件</string>
+    <string name="statistic_title_attachments_added">添加的附件的统计信息</string>
+
+    <!-- timeline -->
+    <string name="timeline_no_more_data">没有更多数据了&#8230;</string>
+    <string name="timeline_list_empty_title">你的时间线上还没有活动</string>
+    <string name="timeline_list_empty_subtitle">你在应用中的主要活动将会被展示在这里</string>
+
+    <!-- note -->
+    <string name="note_add_attachment">添加附件</string>
+    <string name="note_change_notebook">更改笔记本</string>
+    <string name="note_change_categories">更改分类</string>
+    <string name="note_send">发送到其他应用</string>
+    <string name="note_settings">笔记设置</string>
+    <string name="note_hint_content">在这里输入你的笔记内容&#8230;</string>
+    <string name="note_copied_success">复制成功</string>
+    <string name="note_search_no_result">没有发现结果</string>
+    <string name="note_search_sub_title">没有找到结果？更换搜索条件并再次尝试</string>
+    <string name="note_view_note_information">笔记信息</string>
+    <string name="note_captured_image">笔记截图</string>
+    <string name="note_move_to">移动到</string>
+    <string name="note_shortcut_error_tips">失败了: 笔记没有保存或者笔记的标题为空</string>
+    <string name="notebook_editor_name_hint">笔记本名称</string>
+    <string name="notebook_editor_tips">使用笔记本来管理你的笔记</string>
+    <string name="notebook_color_picker_title">选择笔记本的颜色</string>
+    <string name="notebook_default_selection">全部笔记</string>
+    <string name="notebook_delete_warning">警告: 这将同时删除该笔记本关联的所有笔记！</string>
+    <string name="notebook_picker_title">选择笔记本</string>
+    <string name="notebook_picker_empty_message">没有可用的笔记本</string>
+    <string name="notes_list_category_toolbar_title">分类</string>
+    <string name="notes_list_notebook_toolbar_title">笔记本</string>
+    <string name="notes_list_empty">笔记列表为空</string>
+    <string name="notes_list_empty_sub_normal">你可以通过点击主界面的 + 按钮来创建一条笔记</string>
+    <string name="notes_list_empty_sub_archived">没有发现归档的笔记</string>
+    <string name="notes_list_empty_sub_trashed">没有在垃圾箱中发现笔记</string>
+    <string name="category_picker_title">选择分类</string>
+    <string name="category_picker_empty_message">没有找到可以使用的分类</string>
+    <string name="portrait_picker_title">选择图标</string>
+    <string name="category_name_hint">分类名称</string>
+    <string name="category_color_picker_title">分类颜色</string>
+    <string name="category_list_empty_message">你还没有添加过任何分类</string>
+    <string name="category_list_empty_subtitle">点击主界面的 + 按钮来创建第一个分类</string>
+    <string name="category_list_empty_for_archived">没有发现归档的笔记</string>
+    <string name="category_list_empty_for_trashed">该垃圾箱中没有发现笔记</string>
+    <string name="category_edit_step_1">1.选择一个图标</string>
+    <string name="category_edit_step_2">2.编辑分类的名称和颜色</string>
+    <string name="note_table_insert">插入表格</string>
+    <string name="note_table_rows_number">行</string>
+    <string name="note_table_cols_number">列</string>
+    <string name="note_table_rows_required">行数不能为空</string>
+    <string name="note_table_cols_required">列数不能为空</string>
+    <string name="note_action_view_message">发现你打开了一个外部文件，请选择一种打开方式:</string>
+    <string name="note_action_view_create_note">创建新笔记</string>
+    <string name="note_action_view_file_type_not_support">不支持该文件类型</string>
+    <string name="note_note_edit_bg">编辑器背景</string>
+
+    <!-- attachment -->
+    <string name="attachment_type_files">文件</string>
+    <string name="attachment_type_images">图片</string>
+    <string name="attachment_type_videos">视频</string>
+    <string name="attachment_type_voice">音频</string>
+    <string name="attachment_type_sketches">手写</string>
+    <string name="attachment_pick_from_album">从相册中选择</string>
+    <string name="attachment_pick_a_file">选择文件</string>
+    <string name="attachment_take_a_photo">拍照</string>
+    <string name="attachment_sound_record">录音</string>
+    <string name="attachment_take_a_video">拍视频</string>
+    <string name="attachment_add_sketch">手写</string>
+    <string name="attachment_open_with">用&#8230;打开</string>
+    <string name="attachment_play_record_failed">播放音频的时候出现错误</string>
+    <string name="sketch_clear_tips">是否清除绘制内容?</string>
+    <string name="sketch_stroke">宽度</string>
+    <string name="sketch_opacity">透明度</string>
+    <string name="sketch_saturation">饱和度</string>
+    <string name="attachment_open_as">作为&#8230;打开</string>
+    <string name="attachment_type_text">文本</string>
+    <string name="attachment_type_audio">音频</string>
+    <string name="attachment_type_video">视频</string>
+    <string name="attachment_type_image">图片</string>
+    <string name="attachment_type_others">其他</string>
+    <string name="attachment_error_gif">长宽不小于 %1$dpx，且大小不超过 %2$sM。</string>
+
+    <!-- enum names -->
+    <string name="model_name_none">None</string>
+    <string name="model_name_note">笔记</string>
+    <string name="model_name_notebook">笔记本</string>
+    <string name="model_name_alarm">闹钟</string>
+    <string name="model_name_attachment">附件</string>
+    <string name="model_name_location">位置</string>
+    <string name="model_name_quick_note">快速笔记</string>
+    <string name="model_name_timeline">时间线</string>
+    <string name="model_name_weather">天气</string>
+    <string name="model_name_category">分类</string>
+    <string name="operation_none">None</string>
+    <string name="operation_added">添加了</string>
+    <string name="operation_modified">修改了</string>
+    <string name="operation_deleted">删除了</string>
+    <string name="operation_completed">完成了</string>
+    <string name="operation_trashed">删除了</string>
+    <string name="operation_recover">恢复了</string>
+    <string name="operation_archived">归档了</string>
+    <string name="operation_synced">同步了</string>
+    <string name="operation_uncompleted">设置未完成</string>
+
+    <!-- setting -->
+    <string name="setting_title">设置</string>
+    <string name="setting_category_personal">个性化</string>
+    <string name="setting_category_personal_theme">主题</string>
+    <string name="setting_category_personal_theme_sub">更改应用的主题颜色</string>
+    <string name="setting_category_personal_beautify_date">美化日期</string>
+    <string name="setting_category_personal_beautify_date_sub">使用简化的日期</string>
+    <string name="setting_category_personal_fab">浮动按钮</string>
+    <string name="setting_category_personal_fab_sub">自定义主界面浮动按钮的的选项</string>
+    <string name="setting_category_personal_navbar">彩色导航栏</string>
+    <string name="setting_category_personal_navbar_sub">在应用中使用彩色的导航栏</string>
+    <string name="setting_category_universal">通用</string>
+    <string name="setting_category_universal_note">笔记</string>
+    <string name="setting_category_universal_note_sub">笔记相关的设置</string>
+    <string name="setting_category_universal_backup">备份</string>
+    <string name="setting_category_universal_backup_sub">导入 导出和数据同步</string>
+    <string name="setting_category_universal_security">安全</string>
+    <string name="setting_category_universal_security_sub">添加应用独立锁</string>
+    <string name="setting_category_help">帮助</string>
+    <string name="setting_category_help_user_guide">用户导引</string>
+    <string name="setting_category_help_user_guide_sub">获取在线的用户帮助手册</string>
+    <string name="setting_category_help_feedback">反馈</string>
+    <string name="setting_category_help_feedback_sub">帮助开发者使该应用变得更好</string>
+    <string name="setting_category_help_translate">Translate</string>
+    <string name="setting_category_help_translate_sub">If you want to translate or improve your language, please contact me: shouheng2015@gmail.com</string>
+    <string name="setting_category_others">其他</string>
+    <string name="setting_category_others_about_app">关于应用</string>
+    <string name="setting_category_others_about_app_sub">了解我们开发这款应用的初衷和应用的详细信息</string>
+    <string name="setting_category_others_about_privacy">隐私政策</string>
+    <string name="setting_category_others_about_open_source">开源许可</string>
+    <!-- setting->theme -->
+    <string name="setting_theme_picker_title">选择主题</string>
+    <string name="setting_theme_light_blue">蔚蓝</string>
+    <string name="setting_theme_light_red">樱花</string>
+    <string name="setting_theme_dark_blue">黎明</string>
+    <!-- setting->note -->
+    <string name="setting_note_file_extension">笔记拓展名</string>
+    <string name="setting_note_file_extension_sub">创建笔记文件的时候将会使用指定的文件拓展名</string>
+    <string name="setting_note_list_type">使用展开的笔记列表视图</string>
+    <string name="setting_note_list_type_sub">打开之后将会使用展开的列表视图，否则使用缩略图</string>
+    <!-- setting->security -->
+    <string name="setting_security_psd_enable">启用密码</string>
+    <string name="setting_security_psd_enable_sub">将会在打开应用的时候进行密码校验</string>
+    <string name="setting_security_psd">设置密码</string>
+    <string name="setting_security_psd_sub">设置打开应用时使用的密码</string>
+    <string name="setting_security_question">密保问题</string>
+    <string name="setting_security_question_sub">当您忘记密码的时候可以使用密保清除密码</string>
+    <!-- setting->security->lock -->
+    <string name="setting_lock_psd_hint">再次输入</string>
+    <string name="setting_lock_psd_changes_left">密码错误</string>
+    <string name="setting_lock_new_psd">新密码</string>
+    <string name="setting_lock_psd_set_differ">两次输入的密码不一致，请重新输入</string>
+    <string name="setting_lock_security_question_wrong">答案错误</string>
+    <string name="setting_lock_security_question_removed">你已经通过了密保问题校验，密码校验已关闭，你可以在设置中打开并修改密码</string>
+    <!-- setting->security->security question -->
+    <string name="setting_security_question_tips">请确保设置了密保问题，以防止你忘记密码</string>
+    <string name="text_security_question">问题</string>
+    <string name="setting_security_question_answer">答案</string>
+    <string name="setting_security_question_confirm_answer">再次输入</string>
+    <string name="setting_security_question_answer_differ">两次输入的答案不一致</string>
+    <string name="setting_security_question_required">请输入密保问题</string>
+    <string name="setting_security_question_answer_required">请输入答案</string>
+    <string name="setting_security_question_confirm_answer_required">请再次输入答案</string>
+    <string name="setting_security_password_finger_print">启用指纹密码</string>
+    <string name="setting_security_password_finger_print_sub">启用之后可以使用指纹进行身份校验</string>
+    <string name="security_finger_locked">指纹密码已锁定</string>
+    <string name="security_finger_failed">指纹识别失败</string>
+    <string name="security_finger_not_match">纹识不匹配，还剩 %d 次机会</string>
+    <!-- setting->backup -->
+    <string name="setting_backup_external">外部存储空间</string>
+    <string name="setting_backup_backup">备份应数据</string>
+    <string name="setting_backup_backup_sub">备份到外部存储空间的数据不会在应用卸载的时候被删除</string>
+    <string name="setting_backup_import">导入备份</string>
+    <string name="setting_backup_import_sub">从外部存储空间导入备份</string>
+    <string name="setting_backup_delete">删除备份</string>
+    <string name="setting_backup_delete_sub">删除备份在外部存储空间的数据</string>
+    <string name="setting_backup_onedrive">OneDrive</string>
+    <string name="setting_backup_onedrive_sign">连接 OneDrive</string>
+    <string name="setting_backup_onedrive_sign_sub">登录 OneDrive 以同步数据。注意：因为 OneDrive 同步的速率比较慢，程序难以保证数据同步的效率。</string>
+    <string name="setting_backup_onedrive_sign_out">退出 OneDrive</string>
+    <string name="setting_backup_onedrive_sign_out_sub">退出 OneDrive 并停止数据同步</string>
+    <string name="setting_backup_settings">同步设置</string>
+    <string name="setting_backup_settings_wifi">只在 Wi-Fi 环境同步</string>
+    <string name="setting_backup_settings_wifi_sub">只允许在 Wi-Fi 环境中进行数据同步</string>
+    <string name="setting_backup_settings_interval">同步时间间隔</string>
+    <!-- setting->backup->external -->
+    <string name="setting_backup_text_setting_included">包含设置</string>
+    <string name="setting_backup_external_name">输入备份名称</string>
+    <string name="setting_backup_external_include">包含设置（包含密码）</string>
+    <string name="setting_backup_external_empty">没有可用的备份</string>
+    <string name="setting_backup_external_import">导入备份</string>
+    <string name="setting_backup_external_import_warn">警告：这将会覆盖应用数据！</string>
+    <string name="setting_backup_external_backup_completed">备份完成</string>
+    <string name="setting_backup_external_import_tips">确认从备份中进行恢复</string>
+    <string name="setting_backup_external_import_completed">数据导入完成</string>
+    <string name="setting_backup_external_import_content">点击更新应用</string>
+    <string name="setting_backup_external_delete_confirm">确认删除备份</string>
+    <string name="setting_backup_external_delete_completed">备份已经删除</string>
+    <!-- setting->backup->cloud -->
+    <string name="setting_backup_onedrive_backup_folder">当前的同步文件路径是：%1$s</string>
+    <string name="setting_backup_onedrive_failed_query_sync_cloud">发生未知错误！</string>
+    <string name="setting_backup_onedrive_text_folder_explore">选择文件夹</string>
+    <string name="setting_backup_onedrive_no_more_folders">没有更多文件夹了</string>
+    <string name="setting_backup_onedrive_error_when_try_to_backup">当往 %1$s 同步的时候发生了错误</string>
+    <string name="setting_backup_onedrive_backup_dir_selected_message">得到了同步的文件路径</string>
+    <string name="setting_backup_onedrive_pick_backup_directory_message">进入你希望同步到的文件夹中，并点击\"完成\"以完成选择</string>
+    <string name="setting_backup_onedrive_available_directory_found">没有在当前的文件夹中找到名称为 \"NotePal\" 的文件夹，你可以点击 \"完成\" 将当前文件夹设置为同步路径</string>
+    <string name="setting_backup_onedrive_login_drive_message">请先登录 OneDrive 然后再同步</string>
+    <string name="setting_backup_onedrive_sync_path_changed_message">系统发现你重新设置了同步路径，系统将清除备份状态。之后您需要重新对数据进行备份</string>
+    <string name="setting_backup_interval_sync_every_15_minutes">每隔 15 分钟</string>
+    <string name="setting_backup_interval_sync_every_30_minutes">每隔 30 分钟</string>
+    <string name="setting_backup_interval_sync_every_hour">每小时</string>
+    <string name="setting_backup_interval_sync_every_2_hours">每隔 2 小时</string>
+    <string name="setting_backup_interval_sync_every_6_hours">每隔 6 小时</string>
+    <string name="setting_backup_interval_sync_every_12_hours">每隔 12 小时</string>
+    <string name="setting_backup_interval_sync_every_day">每天</string>
+    <!-- setting->about -->
+    <string name="about_slogan">快速、质感、功能丰富</string>
+    <string name="about_section_description">马克笔记</string>
+    <string name="about_section_description_details"><![CDATA[您好，感谢您使用马克笔记！<br/><br/>马克笔记是一个快速、质感、功能丰富的 <b>Markdown</b> 笔记应用。它将在您书写的过程中给您带来非常愉悦的体验。<br/><br/>
+    我们开发这款应用的目的在于帮助每个人记录自己的生活，所以我们将该软件进行了开源。你可以在 <b>Github</b> 上面找到该项目的源码。如果您能给该项目贡献代码或者 <b>Star</b> 该项目，那么我将感激不尽。<br/><br/>
+    此外，如果您对该软件的功能存在不满的地方，或者希望增强它的某个功能，您可以通过 shouheng2015@gmail.com 与我进行交流。<br/><br/>
+    请享用！]]></string>
+    <string name="about_section_developer">开发者</string>
+    <string name="about_section_developer_desc">设计 &amp; 开发</string>
+    <string name="about_section_open_sources">开源协议</string>
+    <string name="about_section_open_links">连接</string>
+    <string name="about_section_open_links_details"><![CDATA[
+1. 源码地址:<br/><a href=\"%s\">Shouheng88/MarkNote: An open sourced makrdown note-taking application for Android</a>;<br/><br/>
+2. 更新日志: <a href=\"%s\">查看马克笔记的更新日志</a>；<br/><br/>
+3. 更新计划: <a href=\"%s\">及时了解我们在接下来的版本中将要开发的功能</a>；<br/><br/>
+4. 关于页面: <a href=\"%s\">了解更多的关于该软件的内容</a>。]]></string>
+    <string name="about_section_sources">自研库</string>
+    <string name="about_section_sources_detail"><![CDATA[
+    在开发该软件的过程中，我们尝试对代码进行封装，从而积累和沉淀出来一些框架，我们已经将其开源到了 <b>Github</b> 上面。<br/><br/>
+    我们希望自己的库能够<b>帮助更多的开发者实现快速开发自己的应用的梦想</b>。希望看到的您能够为我们的开源项目贡献几行代码，即便是一个小小的 <b>Star</b> 也将是对我们工作的重要支持。<br/><br/>
+    下面是我们的库的链接地址：<br/><br/>
+    1. <b>Android-MVVMs</b>：<a href="https://github.com/Shouheng88/Android-MVVMs">一个开源的 MVVM+Databinding 整合框架，优雅设计，基于注解设计进行抽象和封装，配合工具类库 AndroidUtils 以及 AndroidUix 一起实现快捷开发的框架。</a><br/><br/>
+    2. <b>Android-Utils</b>：<a href="https://github.com/Shouheng88/Android-utils">Android 常用的 Android 工具库合集，设备信息，运行时权限，资源获取，日志输出，编码和加解密，时间日期，字符串处理，文件读写，文件路径获取等。</a><br/><br/>
+    3. <b>Android-UIx</b>：<a href="https://github.com/Shouheng88/Android-uix">Android UI 控件，Android UI 组件化，Android 通用页面解决方案，快捷开发。</a><br/><br/>
+    4. <b>Compressor</b>：<a href="https://github.com/Shouheng88/Compressor">一款现代、高效的 Android 图片压缩框架，优雅设计，整合了多种图片压缩策略。</a><br/><br/>
+    5. <b>EasyMark</b>：<a href="https://github.com/Shouheng88/EasyMark">Markdown 解析、预览和编辑库，用来帮助用户快速开发基于 Markdown 预发的笔记应用。</a><br/><br/>
+    其他的库正在整理中…… ]]></string>
+    <string name="about_other_apps">作者的作品</string>
+    <string name="about_other_mobile_box">移动工具箱</string>
+    <string name="about_other_mobile_box_desc"><![CDATA[「移动工具箱」一个<b>丰富、强大</b>的工具合集应用。它可以帮助你提升生活和工作效率。]]></string>
+    <string name="about_other_leaf_note">言叶</string>
+    <string name="about_other_leaf_note_desc"><![CDATA[言叶是一个丰富、强大的笔记应用，<b>连接手机、电脑和其他终端，为跨平台而设计</b>]]></string>
+    <string name="about_other_whatsnext">今天干啥</string>
+    <string name="about_other_whatsnext_desc"><![CDATA[一个个人项目和时间管理应用，结合任务管理和番茄钟]]></string>
+
+    <!--donate -->
+    <string name="donate_wechat_title">捐赠·微信</string>
+    <string name="donate_wechat_tips">微信扫一扫，或者点击\"去捐赠\"，在微信页面右上角菜单中 \"从相册中选取二维码\"。</string>
+    <string name="donate_alipay_title">捐赠·支付宝</string>
+    <string name="donate_alipay_tips">支付宝扫一扫，或者点击\"去捐赠\"\n您点滴支持，是我们最大动力</string>
+    <string name="donate_wechat_loading">启动中&#8230;</string>
+    <string name="donate_switch_tips">点击任何地方切换捐赠方式</string>
+    <string name="donate_text_donate">捐赠</string>
+    <string name="donate_text_to_donate">去捐赠</string>
+    <string name="donate_qa_code">捐赠二维码</string>
+    <string name="donate_by_alipay">通过支付宝捐赠</string>
+    <string name="donate_by_wechat">通过微信支付捐赠</string>
+    <string name="donate_thanks">这个项目因为您的支持而能够不断更新、完善，非常感谢您的支持</string>
+    <string name="donate_error">打开支付宝失败</string>
+
+    <!-- share -->
+    <string name="share_title">应用分享</string>
+    <string name="share_content">嗨！我发现了一个非常好用的 Markdown 笔记应用，推荐你也使用一下 %s</string>
+</resources>

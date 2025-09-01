@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- timeline -->
+    <dimen name="timeline_card_left_right_margin">16dp</dimen>
+    <dimen name="timeline_card_top_bottom_margin">8dp</dimen>
+
+</resources>

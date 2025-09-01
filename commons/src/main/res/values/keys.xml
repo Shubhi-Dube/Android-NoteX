@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- This file is used to define the keys for preference files. The value with prefix '____'
+    is used in xml and preference keys. The value without it is only used as xml keys.-->
+
+    <!-- setting -->
+    <string name="key_setting_theme" translatable="false">theme</string>
+    <string name="key_setting_theme_result" translatable="false">____theme_style_id</string>
+    <string name="key_setting_date_result" translatable="false">____is_beautify_date</string>
+    <string name="key_setting_custom_fab" translatable="false">fab</string>
+    <string name="key_setting_custom_fab_result" translatable="false">____fab_sort_result</string>
+    <string name="key_setting_nav_bar_result" translatable="false">____colored_navigation_bar</string>
+    <string name="key_setting_note" translatable="false">note</string>
+    <string name="key_setting_security" translatable="false">data_security</string>
+    <string name="key_setting_backup" translatable="false">data_backup</string>
+    <string name="key_setting_guide" translatable="false">user_guide</string>
+    <string name="key_setting_feedback" translatable="false">feedback</string>
+    <string name="key_setting_translate" translatable="false">translate</string>
+    <string name="key_setting_about" translatable="false">about</string>
+    <string name="key_setting_privacy" translatable="false">privacy</string>
+    <string name="key_setting_open_source" translatable="false">open_source</string>
+
+    <!-- setting->note -->
+    <string name="key_note_file_extension" translatable="false">____note_file_extension</string>
+    <string name="key_note_expanded_note" translatable="false">____is_note_expanded</string>
+
+    <!-- setting->security -->
+    <string name="key_security_psd_required" translatable="false">____password_required</string>
+    <string name="key_security_psd" translatable="false">____password</string>
+    <string name="key_security_freeze_time" translatable="false">____password_freeze_time</string>
+    <string name="key_security_psd_question" translatable="false">____password_question</string>
+    <string name="key_security_psd_answer" translatable="false">____password_answer</string>
+    <string name="key_security_error_time" translatable="false">____last_error_time</string>
+    <string name="key_security_finger_print_enable" translatable="false">____finger_print_enabled</string>
+
+    <!-- setting->backup -->
+    <string name="key_backup_external" translatable="false">backup_external</string>
+    <string name="key_backup_import" translatable="false">backup_import</string>
+    <string name="key_backup_delete" translatable="false">backup_delete</string>
+    <string name="key_backup_onedrive_singin" translatable="false">onedrive_sign_in</string>
+    <string name="key_backup_onedrvie_signout" translatable="false">onedrive_sign_out</string>
+    <string name="key_backup_time_interval" translatable="false">____sync_time_interval</string>
+    <string name="key_backup_only_wifi" translatable="false">____sync_only_wifi</string>
+    <string name="key_onedrive_last_sync_time" translatable="false">____onedrive_last_sync_time</string>
+    <string name="key_onedrive_backup_dir_item_id" translatable="false">____onedrive_backup_dir_item_id</string>
+    <string name="key_onedrive_last_backup_dir_item_id" translatable="false">____onedrive_last_backup_dir_item_id</string>
+    <string name="key_onedrive_files_backup_dir_item_id" translatable="false">____onedrive_files_backup_dir_item_id</string>
+    <string name="key_onedrive_database_last_sync_time" translatable="false">____onedrive_database_last_sync_time</string>
+    <string name="key_onedrive_preferences_last_sync_time" translatable="false">____onedrive_preferences_last_sync_time</string>
+    <string name="key_onedrive_database_item_id" translatable="false">____onedrive_database_item_id</string>
+    <string name="key_onedrive_preferences_item_id" translatable="false">____onedrive_preferences_item_id</string>
+
+    <!-- others -->
+    <string name="key_operation_color_prefix" translatable="false">____operation_color_</string>
+
+</resources>
