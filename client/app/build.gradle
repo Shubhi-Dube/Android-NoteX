@@ -1,0 +1,126 @@
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+apply plugin: 'AndResGuard'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    defaultConfig {
+        applicationId "me.shouheng.notepal"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 13
+        versionName "2.3"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        // place holder
+        manifestPlaceholders = [
+                UMENG_CHANNEL_VALUE: "umeng",
+                UMENG_APPKEY: "${umengAppKey}",
+                FABRIC_APPKEY: "${fabricAppKey}",
+        ]
+    }
+    signingConfigs {
+        release {
+            keyAlias "${_keyAlias}"
+            storeFile file("${_storeFile}")
+            storePassword "${_storePassword}"
+            keyPassword "${_keyPassword}"
+        }
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled true
+            shrinkResources true // enable shrink resources
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        applicationVariants.all { variant ->
+            variant.outputs.all { output ->
+                outputFileName = defaultConfig.applicationId + "-" + variant.baseName + "-" + defaultConfig.versionName + "-" + defaultConfig.versionCode + ".apk";
+            }
+        }
+    }
+    dataBinding {
+        enabled = true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    // ref: https://youtrack.jetbrains.com/issue/KT-4779 & https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-default/index.html
+    // ref: https://stackoverflow.com/questions/44141076/compilekotlin-block-in-build-gradle-file-throws-error-could-not-find-method-com
+    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
+        kotlinOptions {
+            jvmTarget = '1.8'
+            freeCompilerArgs = ["-Xenable-jvm-default", "-Xjvm-default=enable"] // enable-jvm-default is only for avoid IDE warning
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    flavorDimensions "default"
+    productFlavors {
+        dev {
+            dimension "default"
+        }
+        alpha {
+            dimension "default"
+        }
+        beta {
+            dimension "default"
+        }
+        prod {
+            dimension "default"
+        }
+    }
+    productFlavors.all {
+        flavor -> flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+    }
+    // AndResGuard
+    andResGuard {
+        mappingFile = null
+        // Do NOT enable 7zip compression(use7zip) when you distribute your APP on Google Play: https://github.com/shwenzhang/AndResGuard/issues/233
+        use7zip = true
+        useSign = true
+        keepRoot = false
+
+        whiteList = [
+                // for fabric
+                "R.string.com.crashlytics.*",
+                // for google-services
+                "R.string.google_app_id",
+                "R.string.gcm_defaultSenderId",
+                "R.string.default_web_client_id",
+                "R.string.ga_trackingId",
+                "R.string.firebase_database_url",
+                "R.string.google_api_key",
+                "R.string.google_crash_reporting_api_key"
+        ]
+        compressFilePattern = [
+                "*.png",
+                "*.jpg",
+                "*.jpeg",
+                "*.gif",
+        ]
+        sevenzip {
+            artifact = 'com.tencent.mm:SevenZip:1.2.13'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation project(path: ':commons')
+    implementation project(path: ':data')
+    implementation project(path: ':pinlockview')
+    implementation project(path: ':fingerprint')
+}
